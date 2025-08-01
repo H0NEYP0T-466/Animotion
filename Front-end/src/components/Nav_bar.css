@@ -14,17 +14,76 @@ html, body {
     display: flex;
     align-items: center;
     width: 100%;
-    padding: 2vw 8vw;
+    padding: 1.5vw 10vw;
     justify-content: space-between;
 
 }
 .navpart2
 {
     display: flex;
-    gap: 2vw;
+    gap: 1vw;
 }
 .navpart2 h4
 {
-    font-size: 1vw;
+    font-size: 0.9vw;
     font-weight: 500;
+}
+
+#nav_bottom
+{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    transition: all ease 0.65s;
+    padding: 1vw 17vw;
+    padding-left: 17vw;
+    gap: 3vw;
+    height: 0%;
+    width: 80%;
+    position: absolute;
+    bottom: 0%;
+    border-bottom: 1px solid #dadada;
+
+}
+#nav button
+{
+    background-color: #0ba34e;
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    border-radius: 50px;
+    border: none;
+    font-size: 1.2vw;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+#nav button svg
+{
+    height: 1vw;
+    margin-left: 1.5vw;
+}
+
+#nav_bottom h5
+{
+    overflow: hidden;
+   margin-bottom: 0.2vw;
+}
+#nav_bottom h5 span
+{
+    font-weight: 300;
+    font-size: 1vw;
+    display: inline-block;
+    opacity: 0; 
+}
+
+#nav:hover #nav_bottom
+{
+    height: 180%;   
+    bottom: -180%;
+    background-color: #111;
+    transition: all 0.75s ease-in-out;
+}
+.bottom-div
+{
+    margin-top: 2vw;
 }
