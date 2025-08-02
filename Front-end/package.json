@@ -10,6 +10,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "gsap": "^3.13.0",
+    "ogl": "^1.0.11",
     "react": "^19.1.0",
     "react-dom": "^19.1.0"
   },
