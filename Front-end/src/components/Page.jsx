@@ -1,6 +1,5 @@
 import React from 'react'
 import './Page.css'
-
 const Page = () => {
   return (
     <div>
@@ -24,10 +23,36 @@ const Page = () => {
             <h4>and</h4>
             <h4>Digital Product Design</h4>
         </div>
+         <div id="moving-div">
+                <div id="blur-left"></div>
+                <div class="move">
+                    <img src="https://lazarev.kiev.ua/la24/forbes.svg" alt=""/>
+                    <img src="https://lazarev.kiev.ua/la24/adweek.svg" alt=""/>
+                    <img src="https://lazarev.kiev.ua/la24/pmi.svg" alt=""/>
+                    <img src="https://lazarev.kiev.ua/la24/wf.svg" alt=""/>
+                    <img src="https://lazarev.kiev.ua/la24/adweek.svg" alt=""/>
+                    <img src="https://lazarev.kiev.ua/la24/rd.svg" alt=""/>
+                    <img src="https://lazarev.kiev.ua/la24/pmi.svg" alt=""/>
+                    <img src="https://lazarev.kiev.ua/la24/webby.svg" alt=""/>
+                </div>
+                <div class="move">
+                    <img src="https://lazarev.kiev.ua/la24/forbes.svg" alt=""/>
+                    <img src="https://lazarev.kiev.ua/la24/adweek.svg" alt=""/>
+                    <img src="https://lazarev.kiev.ua/la24/pmi.svg" alt=""/>
+                    <img src="https://lazarev.kiev.ua/la24/wf.svg" alt=""/>
+                    <img src="https://lazarev.kiev.ua/la24/adweek.svg" alt=""/>
+                    <img src="https://lazarev.kiev.ua/la24/rd.svg" alt=""/>
+                    <img src="https://lazarev.kiev.ua/la24/pmi.svg" alt=""/>
+                    <img src="https://lazarev.kiev.ua/la24/webby.svg" alt=""/>
+                </div>
+                <div id="blur-right"></div>
+
+            </div>
+
       </div>
-
+      
       <div id='page2'>
-
+          
       </div>
     </div>
   )

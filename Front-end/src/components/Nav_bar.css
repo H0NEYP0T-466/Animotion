@@ -38,7 +38,7 @@ html, body {
     margin-top: 0.4vw;
     margin-bottom: 0.7vw;
     opacity: 0;
-    transition: opacity 0.5s ease;
+    transition: opacity 1s ease;
 }
 .navpart2 h5 span
 {
