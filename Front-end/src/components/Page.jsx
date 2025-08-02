@@ -1,6 +1,8 @@
 import React from 'react'
 import './Page.css'
+
 const Page = () => {
+
   return (
     <div>
       <div id='page1'>
@@ -52,7 +54,8 @@ const Page = () => {
       </div>
       
       <div id='page2'>
-          
+         
+         
       </div>
     </div>
   )
